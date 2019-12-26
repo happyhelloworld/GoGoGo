@@ -4,7 +4,7 @@
 
 在go中，则是任何一个package中，都可以有唯一一个带有main方法的go文件
 package是按照文件夹来区分的！
-package main
+package main  //表示一个可以独立运行的程序
 
 import "fmt"  //包含格式化I/O输出函数，类似于C语言的printf和scanf
 
@@ -13,3 +13,75 @@ func main() {
 }
 
 [Go语言源码包链接](https://github.com/golang/go)
+
+
+从 |Go 语言基础语法  这一小节开始着重学习！
+Go 程序可以由多个标记（标记可以是：关键字、标识符、常量、字符串、符号）组成！
+例如: fmt.Println("Hello world!")
+
+fmt
+.
+Println
+(
+"Hello world!"
+)
+
+行分隔符
+行或者；
+
+
+注释：
+//
+
+/* file */
+
+/* line1
+line2
+line3
+*/
+
+标识符
+标识符用来命名变量、类型等程序实体！一个标识符实际上就是一个或者多个字母下划线组成的序列，第一个字符必须是字母或者下划线
+
+字符串链接
++
+
+关键字：
+25个关键字或保留字：
+break default func  interface select
+case  defer go  map struct
+chan  else  goto  package switch
+const fallthrough if  range type
+continue  for import  return  var
+
+
+预定义标识符：
+append  bool  byte  cap close complex complex64 complex128 unit16
+copy false float32  float64 image init  int8  init16  unit32
+init32  int64 iota  len make  new nil panic unit64
+print println real  recover string  true unit unit8 unitptr
+
+
+空格
+
+## Go 语言数据类型
+布尔型
+数字类型
+字符串类型
+派生类型
+  指针
+  数组
+  结构化（struct）
+  channel类型
+  函数类型
+  切片类型
+  接口类型
+  Map类型
+  
+
+## Go 语言变量
+
+
+
+
+
