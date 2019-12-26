@@ -6,6 +6,6 @@
 #### 24 chapters, about two weeks    
 
 
-<br>
+<br></br>
 #### Go language learning outline
 ![](https://github.com/happyhelloworld/GoGoGo/blob/master/images/aonaotu-download.png)
