@@ -2,4 +2,14 @@
   执行：go run hello.go
   先编译再执行：go build hello && ./hello
 
+在go中，则是任何一个package中，都可以有唯一一个带有main方法的go文件
+package是按照文件夹来区分的！
+package main
 
+import "fmt"  //包含格式化I/O输出函数，类似于C语言的printf和scanf
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+
+[Go语言源码包链接](https://github.com/golang/go)
